@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="author" content="joshua">
+   <meta name="description" content="javascript calculator">
+   <meta name="keywords" content="javascript, calculator">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FCC FELP JavaScript Calculator</title>
+   <link rel="icon" type="image/x-icon" href="./favicon.ico">
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <div id="calculator">
+      <main>
+         <div id="screen">
+            <div id="equation">&nbsp;</div>
+            <div id="display">0</div>
+         </div>
+         <div id="calc-left">
+         <button type="button" id="clear">C</button>
+         <button type="button" id="divide">/</button>
+         <button type="button" id="multiply">*</button>
+         <button type="button" id="seven">7</button>
+         <button type="button" id="eight">8</button>
+         <button type="button" id="nine">9</button>
+         <button type="button" id="four">4</button>
+         <button type="button" id="five">5</button>
+         <button type="button" id="six">6</button>
+         <button type="button" id="one">1</button>
+         <button type="button" id="two">2</button>
+         <button type="button" id="three">3</button>
+         <button type="button" id="zero" class="wide">0</button>
+         <button type="button" id="decimal">.</button>
+         </div>
+         <div id="calc-right">
+         <button type="button" id="subtract">-</button>
+         <button type="button" id="add" class="tall">+</button>
+         <button type="button" id="equals" class="tall">=</button>
+         </div>
+      </main>
+      <p>This calculator uses immediate execution logic. For example:<br />
+      <code>3 + 5 * 6 = 48</code> not <code>33</code>
+      </p>
+   </div>
+   <script src="index.js" defer></script>
+</body>
+</html>
