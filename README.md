@@ -4,7 +4,7 @@
 
 A clunky calculator with a strictly left-to-right order of operations. And a bug that I didn't noticed until years after the FCC tests approved it: try hitting the first number twice consecutively.
 
-This was a project required for getting the JavaScript Algorithms and Data Structures Certificate from freeCodeCamp. It had to fulfill these "user stories".
+This was a project required for getting the Front End Development Libraries Certificate from freeCodeCamp. It had to fulfill these "user stories".
 
 - My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".
 - My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: id="zero", id="one", id="two", id="three", id="four", id="five", id="six", id="seven", id="eight", and id="nine".
